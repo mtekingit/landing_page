@@ -1,0 +1,206 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 150px 5px 100px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    gap: 22px;
+}
+
+li {
+    list-style-type: none;
+    
+    
+}
+
+.medya {
+    display: flex;
+    width: 220px;
+    flex-direction: column;
+    gap: 26px;
+   
+}
+
+.medya>img {
+    border: 3px solid #3c4249;;
+    border-radius: 12px;
+}
+
+.medya-text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    color: #3c4249;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.content-rest {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 5px 150px 5px 100px;
+}
+
+.top {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+    padding: 100px 150px 100px 100px;
+
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.top-right {
+    display: flex;
+ /*   flex: 1.3; */
+}
+
+.img-top {
+    width: 500px;
+}
+
+.top-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.top-text {
+    font-size: 18px;
+    color: #999a9c;
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.info-title {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.info-rest {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 26px;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 0px 36px 0px;
+    gap: 1px;
+    background-color: rgb(199, 190, 179);
+}
+
+.inspiring-quote {
+    padding: 26px 96px 26px 96px;
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+.buttons {
+    
+    background-color:rgb(0, 150, 255);
+    color:rgb(241, 241, 240);
+    border: 3px solid;
+    border-radius: 9px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 3px 22px 3px 22px;
+}
+
+#top-button {
+    border: 0px;
+    padding: 5px 26px 5px 26px;
+}
+
+.person-quote-from {
+    padding-right: 96px;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 150, 255);
+    
+    margin-bottom: 100px;
+    padding: 46px;
+    border-radius: 10px;
+
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #f9faf8;
+}
+
+.bottom-title {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+footer {
+    
+    height: 72px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color:#f9faf8;
+}
